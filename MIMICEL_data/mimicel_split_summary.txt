@@ -1,0 +1,15 @@
+MIMICEL Train/Test Split Summary
+============================================================
+
+Original rows : 7,568,824
+Train rows    : 6,049,400
+Test rows     : 1,519,424
+
+Original cases: 425,028
+Train cases   : 340,022
+Test cases    : 85,006
+
+Test ratio    : 0.2
+Random state  : 42
+
+Leakage cases : 0

@@ -1,0 +1,9 @@
+metric,value
+original_rows,7568824.0
+train_rows,6049400.0
+test_rows,1519424.0
+original_cases,425028.0
+train_cases,340022.0
+test_cases,85006.0
+test_ratio,0.2
+random_state,42.0

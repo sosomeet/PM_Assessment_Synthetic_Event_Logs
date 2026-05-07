@@ -1,1 +1,5 @@
 mimicel.csv
+*.png
+mimicel_train.csv
+mimicel_test.csv
+02_Data_EDA/results/*
