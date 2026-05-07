@@ -1,5 +1,5 @@
 batch_size: 64
-data: BPI
+data: MIMICEL
 device: cuda:1
 drop_out_act: 0.1
 drop_out_d: 0.1

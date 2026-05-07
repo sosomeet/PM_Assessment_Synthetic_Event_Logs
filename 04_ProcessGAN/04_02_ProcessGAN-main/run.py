@@ -34,7 +34,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', type=str, default='act_time_loss', help='Choose from different auxiliary losses.')
     parser.add_argument('--model', type=str, default='trans_attn', help='Select model to use as generator. ProcessGAN or GAN with two transformers.')
-    parser.add_argument('--data', type=str, default='SEP', help='Choose the dataset.')
+    parser.add_argument('--data', type=str, default='MIMICEL', help='Choose the dataset.')
     args = parser.parse_args()
 
     ar_path = os.path.join('data', 'data_time', args.data, 'data_seq', f'{args.data}.txt')
