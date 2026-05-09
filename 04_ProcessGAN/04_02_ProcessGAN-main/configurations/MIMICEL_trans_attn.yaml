@@ -1,6 +1,6 @@
 batch_size: 64
 data: MIMICEL
-device: cuda:1
+device: cuda:0
 drop_out_act: 0.1
 drop_out_d: 0.1
 emb_size_act: 4
