@@ -91,19 +91,17 @@ def plot_positions_violin(act_seqs, act_time_seqs, save_path, act_dict):
         order.append(act_dict[act])
 
     # Create violin plot
-    plt.figure(figsize=(15, 25))
+    plt.figure(figsize=(15, 25))    
     ax = sns.violinplot(
-                        x="Position",
-                        y="Activity",
-                        data=df,
-                        order=order,
-                        scale="width",
-                        cut=0,
-                        orient='h',
-                        inner="box",
-                        showmeans = True,
-                        showmedians = True
-                        )
+        x="Position",
+        y="Activity",
+        data=df,
+        order=order,
+        density_norm="width",
+        cut=0,
+        orient="h",
+        inner="box"
+    )
 
     ax.set_ylabel(ax.get_ylabel(), fontsize=30)
 
