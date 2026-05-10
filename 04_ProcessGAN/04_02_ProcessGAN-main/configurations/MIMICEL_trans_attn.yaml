@@ -21,6 +21,6 @@ seq_num: 3712
 test_size: 0
 train_size: 3712
 valid_size: 0
-vocab_num_act: 36
+vocab_num_act: 6
 w_a: 100
 w_g: 1
