@@ -24,3 +24,4 @@ valid_size: 0
 vocab_num_act: 6
 w_a: 100
 w_g: 1
+save_path: /content/drive/MyDrive/PM_Assessment_Logs/results/checkpoints/processgan_mimicel/
